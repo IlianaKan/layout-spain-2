@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400vh;
+    width: 100vw;
+}
+
+/* MENU */
+
+menu{
+    background-color: rgb(214, 214, 214);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+menu ul li{
+    float: left;
+    list-style: none;
+}
+
+
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    
+}
+
+
+
+/* MAIN */
+
+/*MAIN 1*/
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    /*background-color: tomato;*/
+}
+
+.else1_1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    /*background-color: beige;*/
+}
+
+.title1{
+    height: 60px;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.words1_1{
+    height: 100px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.else1_2{
+height: 100%;
+width: 80%;
+/*background-color: greenyellow;*/
+}
+
+.words1_2{
+    padding: 20px;
+    padding-top: 60px;
+}
+
+/* MAIN 2*/
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 700px;
+    background-color: lightgray;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+/* MAIN 3 */
+
+.main3{
+    height: 1300px;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.title3{
+    height: 60px;
+    padding: 20px;
+    /*background-color: beige;*/
+    margin-top: 90px;
+}
+
+.else3_1{
+    height: 500px;
+    /*background-color: lightcoral;*/
+    display: flex;
+    flex-direction: row;
+}
+
+#photo3_1{
+    height: 150px;
+    width: 150px;
+    background-color: lightgray;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.else3_1_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+}
+
+#words3_1{
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.else3_1_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    padding-left: 200px;
+}
+
+.button{
+    margin-left: 1300px;
+}
+
+/* MAIN 4 */
+
+.main4{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: lavender;*/
+}
+
+.title4{
+    height: 50px;
+    padding: 20px;
+    /*background-color: beige;*/
+}
+
+.words4{
+    height: 130px;
+    /*background-color: honeydew;*/
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.pie{
+    height: 250px;
+    /*background-color: gold;*/
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+#pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: darkgrey;
+    margin-left: 200px;
+    border-radius: 100%;
+}
+
+/* MAIN 5 */
+
+.main5{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    /*background-color: seagreen;*/
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.else5{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 50%;
+    margin-left: 350px;
+}
+
+.photo5_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: lightgray;
+    margin-left: 100px;
+}
+
+.photo5_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: lightgray;
+    margin-right: 100px;
+}
+
+.words5{
+    padding-top: 50px;
+}
+
+/* MAIN 6 */
+
+.main6{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: indianred;*/
+    margin-top: 100px;
+}
+
+.else6{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /*background-color: khaki;*/
+    width: 35%;
+}
+
+.title6{
+    height: 60px;
+    padding: 20px;
+}
+
+.words6{
+    height: 200px;
+    padding: 20px;
+}
+
+.video6{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+

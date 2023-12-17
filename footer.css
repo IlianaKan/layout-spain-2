@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+footer {
+    height: 255px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul {
+    margin-top: 20px;
+}
+
+footer .info ul li a {
+    color: black;
+}
+
+footer .social ul li {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+footer #soc{
+    margin-left: 20px;  
+}
+
+footer .social{
+    margin-top: 65px;
+}
